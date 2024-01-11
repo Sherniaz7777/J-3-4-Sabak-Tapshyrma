@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: darkgrey; */
+    background-image: url(https://imgeng.jagran.com/images/2023/dec/weatherforecast1703735055302.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.root{
+    width: 60vh;
+    margin: 100px auto;
+    /* background-color: rgba(240,248,255, 0.6); */
+    padding: 20px;
+    text-align: center;
+    
+
+}
+.weather{
+    background-color: rgba(240,248,255, 0.6);
+    padding-bottom: 20px;
+    margin-top: -100px;
+    border-radius: 6px;
+    padding-top: 20px;
+}
+#input{
+    text-align: center;
+}
+input {
+    width: 20%;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    /* padding: 0 10px; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+input:focus {
+    background-color: rgba(255,255,255);
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+}
+h3{
+  font-size: 23px;
+}
+h4{
+  font-size: 23px;
+}
+.wind-main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
